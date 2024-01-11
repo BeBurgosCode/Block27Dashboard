@@ -4,7 +4,6 @@ import "./App.css";
 import React from "react";
 import Header from "./components/heading";
 import Sidebar from "./components/sidebar";
-//import MockData from "./components/mockData";
 
 function App() {
   
