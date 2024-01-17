@@ -1,7 +1,4 @@
-
-
-// Sidebar.js
-
+//Sidebar.js
 import React, { useState } from 'react';
 
 
@@ -22,7 +19,7 @@ const Sidebar = () => {
           <li>Home</li>
           <li>About</li>
           <li className="dropdown" onClick={toggleDropdown}>
-            Revenue
+            Transactions
             <ul className={`dropdown-menu ${isDropdownOpen ? 'open' : ''}`}>
               <li>Monthly</li>
               <li>Yearly</li>
@@ -38,3 +35,4 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+

@@ -1,6 +1,8 @@
 //import { tokens } from "../theme";
-import React from "react";
+//import React from "react";
 
+
+//Data below is an object 
 
 export const mockTransactions = [
   {
@@ -136,7 +138,7 @@ export const mockBarData = [
 export const mockLineData = [
   {
     id: "weekdays",
-   // color: tokens("dark").greenAccent[500],
+    // color: tokens("dark").greenAccent[500],
     data: [
       {
         x: "donut",
@@ -161,44 +163,42 @@ export const mockLineData = [
       {
         x: "burger",
         y: 236,
-      }
-     
+      },
     ],
   },
-   {
-     id: "weekends",
-     //color: tokens("dark").blueAccent[300],
-     data: [
-       {
-         x: "donut",
-         y: 212,
-       },
-       { 
+  {
+    id: "weekends",
+    //color: tokens("dark").blueAccent[300],
+    data: [
+      {
+        x: "donut",
+        y: 212,
+      },
+      {
         x: "sandwich",
-         y: 190,
-       },
-       {
-         x: "fries",
-         y: 270,
-       },
-       {
-         x: "kebab",
-         y: 9,
-       },
-       {
-         x: "hotdog",
-         y: 75,
-       },
-       {
-         x: "burger",
-         y: 175,
-       }
-
-     ],
-   },
+        y: 190,
+      },
+      {
+        x: "fries",
+        y: 270,
+      },
+      {
+        x: "kebab",
+        y: 9,
+      },
+      {
+        x: "hotdog",
+        y: 75,
+      },
+      {
+        x: "burger",
+        y: 175,
+      },
+    ],
+  },
   {
     id: "holidays",
-   // color: tokens("dark").redAccent[200],
+    // color: tokens("dark").redAccent[200],
     data: [
       {
         x: "donut",
@@ -223,11 +223,10 @@ export const mockLineData = [
       {
         x: "burger",
         y: 152,
-      }
-
-     ],
-   },
- ];
+      },
+    ],
+  },
+];
 
 export const mockGeographyData = [
   {
@@ -915,3 +914,4 @@ export const mockGeographyData = [
     value: 171135,
   },
 ];
+
